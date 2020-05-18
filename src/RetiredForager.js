@@ -1,12 +1,14 @@
 var RetiredForagerBee = function() {
 };
 
-RetiredForagerBee.prototype = Object.create(Grub.prototype);
+RetiredForagerBee.prototype = Object.create(ForagerBee.prototype);
+RetiredForagerBee.prototype.constructor = RetiredForagerBee;
+RetiredForagerBee.prototype.age = 40;
 
-// RetiredForagerBee.prototype = {
-//   ForagerBee.call(this),
-//   constructor: RetiredForagerBee,
-//   // age: 40
+RetiredForagerBee.prototype = {
+  // ForagerBee.call(this),
+  // constructor: RetiredForagerBee,
+  // age: 40
 // //   job: 'gamble',
 // //   canFly: false,
 // //   color: grey,
@@ -14,4 +16,4 @@ RetiredForagerBee.prototype = Object.create(Grub.prototype);
 // //   // gamble: function(treasure) {
 // //   //   this.treasureChest.push(treasure)
 // //   // }
-// };
+};

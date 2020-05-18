@@ -3,8 +3,6 @@ var ForagerBee = function() {
 
 ForagerBee.prototype = Object.create(Bee.prototype);
 
-
-
 ForagerBee.prototype = {
   Bee.call(this);
   constructor: ForagerBee,
