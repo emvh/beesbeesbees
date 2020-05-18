@@ -4,6 +4,7 @@ describe('Grub class functionality', function() {
 
   beforeEach(function() {
     grub = new Grub();
+    console.log('test');
   });
 
   it('should have an `age` property that is set to `0`', function() {
