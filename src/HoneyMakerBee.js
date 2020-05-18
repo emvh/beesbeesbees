@@ -1,6 +1,6 @@
 var HoneyMakerBee = function() {
 };
-HoneyMakerBee.prototype = Object.create(Bee.prototype);
+HoneyMakerBee.prototype = Object.create(Grub.prototype);
 
 HoneyMakerBee.prototype = {
   Bee.call(this);

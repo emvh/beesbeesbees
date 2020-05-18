@@ -3,6 +3,8 @@ var ForagerBee = function() {
 
 ForagerBee.prototype = Object.create(Bee.prototype);
 
+
+
 ForagerBee.prototype = {
   Bee.call(this);
   constructor: ForagerBee,
@@ -17,9 +19,7 @@ ForagerBee.prototype = {
 
 
 // ForagerBee.prototype.constructor = ForagerBee;
-// ForagerBee.prototype = function() {
-//   Bee.call(this);
-// };
+
 // ForagerBee.age = 10;
 // ForagerBee.job = 'find pollen';
 // ForagerBee.canFly = true;
